@@ -7,8 +7,9 @@ translator zhy
 phonemes zhy
 dictionary zhy
 
-// interpret English letters as 1=English words, 2=jyutping
+
+// JyutPing Options 1 = Canton(GuangZhou) / Hongkong
 dictrules 1
 
-words 1
+words 1 0
 dict_min 10000

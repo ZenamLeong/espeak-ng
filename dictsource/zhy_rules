@@ -1,139 +1,183 @@
 // Cantonese Chinese
 
-// condition ?1   Speak English letters as English words
-// condition ?2   Speak English letter as jyutping romanisation
+// condition ?1   Canton(Guangzhou) Tones
+
 
 //voice=zh-yue    // to find the voice for this dictionary
 
+
 .group a
-?1        a        _^_EN
-?2        a        a
-?2        ai       ai
-?2        au       au
-?2        aa       aa
-?2        aai      aai
-?2        aau      aau 
-?2        aang     aang
+        aa          a
+        aai         ai
+        aau         au
+        aae         aE
+        aao         aO
+        a           6
+        ai          6i
+        au          6u
+        ar          A         
+        ae          ae
+        aw          3
+        ann         6~
+        aann        a~
 
 .group b
-?1        b        _^_EN
-?2        b        b
+        b           p
+        bb          bb
+
 
 .group c
-?1        c        _^_EN
-?2        c        c
-?2        ch       tS
+        c           tsh
+        ch          tSh
+        cj          ts\\h
+        cl          tKh
 
 .group d
-?1        d        _^_EN
-?2        d        d
+        d           t
+        dd          dd
 
 .group e
-?1        e        _^_EN
-?2        e        e
-?2        ei       ei
-?2        eu       eu
-?2        eo       eo
-?2        eoi      eoi
+        e           E
+        ee          e
+        ea          @
+        ei          ei
+        eu          Eu
+        ew          e
+        eo          8
+        er          V
+        enn         E~
+        ewnn        e~
+	    eoi			8i
+	    eoy			8y
 
 .group f
-?1        f        _^_EN
-?2        f        f
+        f           f
 
 .group g
-?1        g        _^_EN
-?2        g        g
+        g           k
+        gn          n`
+        gw          kw
+        gv          kv
+        gg          g
+        gj          c
+        gx          G
 
 .group h
-?1        h        _^_EN
-?2        h        h
+        h           h
+     @) h           ?
 
 .group i
-?1        i        _^_EN
-?2        i        i
-?2        iu       iu
+        i           i
+        ii          1
+        iz          i\[
+        iw          I
+        iu          iu
+        iaa         ia
+        ia          i6
+        inn         i~
+        iwnn        I~
+?1      ik          Ik
+?1      ing         IN
 
 .group j
-?1        j        _^_EN
-?2        j        j
+        j           j
 
 .group k
-?1        k        _^_EN
-?2        k        k
+        k           kh
+        kw          khw
+        kv          khv
+        kj          ch
+     @) k           k
 
 .group l
-?1        l        _^_EN
-?2        l        l
+        l           l
 
 .group m
-?1        m        _^_EN
-?2        m        m
-
+        m           m
+        mb          mb
+     X) m (X        m=
 .group n
-?1        n        _^_EN
-?2        n        n
-?2        ng       N
+		nn			_
+        n           n
+        ng          N
+     X) ng (X       N=
+        ngg         Ng
+        nd          nd
+        nj          J
 
 .group o
-?1        o        _^_EN
-?2        o        o
-?2        oi       oi
-?2        ou       ou
-?2        oe       oe
-?2        ong      ong
+        o           O
+        oa          Q
+        oo          o
+	    oe	        9
+        ou          Ou
+        oi          Oi
+        or          7
+        ow          3\\
+        onn         O~
+        oonn        o~
 
 .group p
-?1        p        _^_EN
-?2        p        p
+        p           ph
+     @) p           p
 
 .group q
-?1        q        _^_EN
-?2        q        k
-?2        qu       kw
+        q           ?
 
 .group r
-?1        r        _^_EN
-?2        r        r
+        r           r\\
+        rr          r
 
 .group s
-?1        s        _^_EN
-?2        s        s
+        s           s
+        sh          S
+        sj          s\\
+        sl          K
 
 .group t
-?1        t        _^_EN
-?2        t        t
+        t           th
+        th          T
+     @) t           t
 
 .group u
-?1        u        _^_EN
-?2        u        u
-?2        ui       ui
+        u           u
+        uu          }
+        uw          U
+        unn         u~
+        ui          ui
+?1      uk          Uk
+?1      ung         UN
 
 .group v
-?1        v        _^_EN
-?2        v        v
+        v           v
 
 .group w
-?1        w        _^_EN
-?2        w        w
+        w           w
 
 .group x
-?1        x        _^_EN
-?2        x        ks
+        x           x
 
 .group y
-?1        y        _^_EN
-?2        y        j
-?2        yu       yu
+        yu          y
+        y           y
+        yw          Y
 
 .group z
-?1        z        _^_EN
-?2        z        z
+        z           ts
+        zh          tS
+        zj          ts\\
+        zl          tK
+        zz          z
 
 .group
-        1        1
-        2        2
-        3        3
-        4        4
-        5        5
-        6        6
-        7        7
+        1   55
+        2   35
+        3   44
+        4   31
+        5   24
+        6   33
+        7   53  // high fall
+        8   31  // mid fall
+        9   13  // very low rise
+
+    |   _|
